@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/05/26/hello-world/"/>
+      <url>/2023/05/26/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>markdown用法</title>
+      <link href="/2023/05/24/markdown/"/>
+      <url>/2023/05/24/markdown/</url>
+      
+        <content type="html"><![CDATA[<h1 id="markdown"><a href="#markdown" class="headerlink" title="markdown"></a>markdown</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p># 一级标题</p><p>## 二级标题</p><p>### 以此类推,最多六级</p><h2 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h2><p>*<em>内容</em>*或者    _<em>内容</em>_</p><p><strong>强调</strong>内容</p><p>或者<strong>CTRL+B</strong></p><h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><p>*内容*或者_内容_</p><p>比如<em>斜体</em></p><p>也可以<strong>选中</strong>后<em>ctrl+i</em></p><h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><p>~~我是傻逼~~</p><p>比如 <del>我是傻逼</del></p><h2 id="高亮"><a href="#高亮" class="headerlink" title="*高亮"></a>*高亮</h2><p>==高亮==</p><p>==highLight==</p><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>`代码`</p><p><code>printf(hello word)</code>;</p><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>```语言</p><p>代码块</p><p>```</p><p>例如:</p><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">//这里是你的代码#include &lt;stdio.h&gt;if(you==38) kill();printf(hello world);return 0;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>&gt; 语句</p><p>效果如下:</p><blockquote><p>这里是引用</p><p>这里也是</p></blockquote><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>+ 条项</p><p>- 条项</p><p>* 条项</p><ul><li>我家门前有两颗树</li></ul><ul><li>一棵是枣树</li></ul><ul><li>另一棵也是枣树</li></ul><h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>1. 内容</p><ol><li><p>我来这里是为了三件事</p></li><li><p>公平</p></li><li><p>公平</p></li><li><p>还特么是公平</p></li></ol><h2 id="上标"><a href="#上标" class="headerlink" title="上标"></a>上标</h2><p>用^…^包裹内容,如:E=mc^2^</p><p>效果: E=mc^2^</p><h2 id="下标"><a href="#下标" class="headerlink" title="下标"></a>下标</h2><p>用~…~包围,如: H~2~O</p><p>效果: H<del>2</del>O</p><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>[^1]</p><p>啊哈哈哈哈,markdown来咯<a href="%E7%9C%9F%E7%9A%84%E6%B2%A1%E6%9C%89%E6%AF%92!">^1</a></p><h2 id="连接"><a href="#连接" class="headerlink" title="连接"></a>连接</h2><p>[名字](连接)</p><p><a href="https://www.bilibili.com/">哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a></p><p>[回到开始](# markdown)</p><h2 id="todo-list"><a href="#todo-list" class="headerlink" title="todo list"></a>todo list</h2><p>- [ ]或 - [x]</p><p>如:</p><ul><li><p><input disabled="" type="checkbox"> 第一件事情</p></li><li><p><input checked="" disabled="" type="checkbox"> 第二件事情</p></li><li><p><input checked="" disabled="" type="checkbox"> 第三件…</p></li></ul><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>用”|“绘制边框</p><table><thead><tr><th>第一</th><th>第二</th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table><table><thead><tr><th>第一</th><th>第二</th></tr></thead><tbody><tr><td></td><td></td></tr></tbody></table><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p>![图片](位置)或者直接拖进来</p><p><img src="D:\天翼云盘同步盘\17725992938\1ace6fe72872639b0499ff098b3965778bf26fbc.png" alt="若熬不过这段永夜，至少还有我"></p><h2 id="分割"><a href="#分割" class="headerlink" title="分割"></a>分割</h2><p>*** 或者 ___ 或者---</p><p>如:</p><hr><hr><hr><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>输入[TOC]</p><p>[TOC]</p><h2 id="内联html"><a href="#内联html" class="headerlink" title="内联html"></a>内联html</h2><p>如&lt;center&gt;居中&lt;/center&gt;</p><center>居中</center><h2 id="内联-LaTeX-公式"><a href="#内联-LaTeX-公式" class="headerlink" title="内联$\LaTeX$公式"></a>内联$\LaTeX$公式</h2><p>用”$“包围</p><p>如<code>$a^2+b^2=c^2$</code></p><p>$a^2+b^2=c^2$</p><p>或者公式块:</p><p><code>\$$公式\$\$</code></p><p>比如:</p><p>$$f(x) = f(a) + f’(a)(x-a) + \frac{f’’(a)}{2!}(x-a)^2 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n + R_n(x)$$</p><h2 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h2><p><img src="D:\天翼云盘同步盘\17725992938\Snipaste_2023-05-23_17-39-31.png" alt="Snipaste_2023-05-23_17-39-31"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>每日单词</title>
+      <link href="/2023/05/24/%E6%AF%8F%E6%97%A5%E5%8D%95%E8%AF%8D/"/>
+      <url>/2023/05/24/%E6%AF%8F%E6%97%A5%E5%8D%95%E8%AF%8D/</url>
+      
+        <content type="html"><![CDATA[<h1 id="每日单词"><a href="#每日单词" class="headerlink" title="每日单词"></a>每日单词</h1><hr><h2 id="2023-5-23"><a href="#2023-5-23" class="headerlink" title="2023.5.23"></a>2023.5.23</h2><h3 id="【1】entangle-vt-使纠缠；卷入；使混乱"><a href="#【1】entangle-vt-使纠缠；卷入；使混乱" class="headerlink" title="【1】entangle vt. 使纠缠；卷入；使混乱"></a>【1】<code>entangle</code> vt. 使纠缠；卷入；使混乱</h3><ol><li>to make sb/sth become caught or twisted in sth.</li></ol><ul><li>The bird had <strong>become entangled</strong> in the wire netting. <em>那只小鸟被铁丝网缠住了。</em></li></ul><ol start="2"><li>to involve sb in a <strong>difficult</strong> or <strong>complicated</strong> situation.</li></ol><ul><li>He <strong>became entangled</strong> in a series of conflicts with the management. <em>他<u>卷入</u>了与管理层的一系列冲突之中。</em></li></ul><h3 id="【2】discard-v-扔掉，弃置；打出（无用的牌）-n-被抛弃物"><a href="#【2】discard-v-扔掉，弃置；打出（无用的牌）-n-被抛弃物" class="headerlink" title="【2】discard v. 扔掉，弃置；打出（无用的牌） n. 被抛弃物"></a>【2】<code>discard</code> v. 扔掉，弃置；打出（无用的牌） n. 被抛弃物</h3><ol><li>get rid of as no longer useful or desirable.</li></ol><ul><li>Hilary bundled up the clothes she had <strong><u>discard</u></strong>. <em>希拉里把她<u>不要的</u>衣服捆了起来</em></li></ul><p>dis(分离)-card(牌)–&gt;_discard_把一些卡牌分离出来</p><hr><h2 id="2023-5-24"><a href="#2023-5-24" class="headerlink" title="2023.5.24"></a>2023.5.24</h2><h3 id="【1】penetrate-v-刺入，穿透；打进（某地区或国家的市场）；渗入，打入（组织、团体等）；洞察，了解；被理解，被领悟；透过……看见，看穿"><a href="#【1】penetrate-v-刺入，穿透；打进（某地区或国家的市场）；渗入，打入（组织、团体等）；洞察，了解；被理解，被领悟；透过……看见，看穿" class="headerlink" title="【1】penetrate v.刺入，穿透；打进（某地区或国家的市场）；渗入，打入（组织、团体等）；洞察，了解；被理解，被领悟；透过……看见，看穿"></a>【1】<code>penetrate</code> v.刺入，穿透；打进（某地区或国家的市场）；渗入，打入（组织、团体等）；洞察，了解；被理解，被领悟；透过……看见，看穿</h3><ol><li>sthto go into or through sth 穿过；进入</li></ol><ul><li>The knife had <strong>penetrated</strong> his chest. <em>刀子<strong>刺入</strong>了他的胸膛。</em></li></ul><ol start="2"><li>to succeed in entering or joining an organization, a group, etc. especially when this is difficult to do 渗透，打入（组织、团体等）</li></ol><ul><li>They had <strong>penetrated</strong> airport security. <em>他们已<strong>打入</strong>机场保安组织</em>。</li></ul><ol start="3"><li>to see or show a way into or through sth 看透；透过…看见</li><li>to understand or discover sth that is difficult to understand or is hidden 洞察；发现；揭示</li><li>to be understood or realized by sb 被领悟；被理解</li></ol><ul><li>I was at the door before his words <strong>penetrated</strong>. 我走到门口才<strong>听懂</strong>了他说的话。</li></ul><hr><h2 id="2023-5-25"><a href="#2023-5-25" class="headerlink" title="2023.5.25"></a>2023.5.25</h2><h3 id="【1】baffling"><a href="#【1】baffling" class="headerlink" title="【1】baffling"></a>【1】baffling</h3><h3 id="【2】exotic"><a href="#【2】exotic" class="headerlink" title="【2】exotic"></a>【2】exotic</h3><h3 id="【3】shallow"><a href="#【3】shallow" class="headerlink" title="【3】shallow"></a>【3】shallow</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 英语 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
