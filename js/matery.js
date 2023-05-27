@@ -170,3 +170,6 @@ $(function () {
     // 初始化加载 tooltipped.
     $('.tooltipped').tooltip();
 });
+
+// Path: themes\hexo-theme-matery\source\js\utils.js
+// Language: javascript
