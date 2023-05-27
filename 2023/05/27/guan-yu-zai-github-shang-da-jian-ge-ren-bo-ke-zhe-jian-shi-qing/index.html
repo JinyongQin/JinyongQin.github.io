@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, JinYong">
+    <meta name="keywords" content="关于这个网站是如何建立的, JinYong">
     <meta name="description" content="永远不要熄灭心中的火，哪怕别人只看到烟">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | JINYONG_QIN</title>
+    <title>关于这个网站是如何建立的 | JINYONG_QIN</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -259,12 +259,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://img.tt98.com/d/file/96kaifa/2018091418291197/5b9b2a61595d8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">关于这个网站是如何建立的</h1>
                 </div>
             </div>
         </div>
@@ -378,12 +378,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E4%B8%8D%E5%8A%A1%E6%AD%A3%E4%B8%9A/">
+                                <span class="chip bg-color">不务正业</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%8D%A3%E9%BC%93%E6%97%A5%E8%AE%B0/" class="post-category">
+                                捣鼓日记
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -392,7 +405,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2023-05-26
+                    2023-05-27
                 </div>
                 
 
@@ -401,7 +414,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    73
+                    1k
                 </div>
                 
 
@@ -426,19 +439,51 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <h1 id="关于这个网站是如何建立的"><a href="#关于这个网站是如何建立的" class="headerlink" title="关于这个网站是如何建立的"></a>关于这个网站是如何建立的</h1><p>​	拥有一个属于自己的网站是一件很酷的事情, 可是租借一个服务器太TM贵了, 鄙人消受不起. 但GitHub pages 的功能却提供了很好的平台来部署个人博客. 于是乎, 就开启了捣鼓之路. </p>
+<p>​	因为github只提供静态网站的托管, 所以这个博客是也是静态网站. </p>
+<blockquote>
+<p>静态网页是指网页不是由服务器动态生成的，而是由 HTML、CSS 和 JavaScript 等文件组成的，它们的内容与用户看到的版本是一样的. 静态网页一般不需要连接数据库，也不包含程序代码，只用来展示固定的信息。静态网页的优点是加载速度快，安全性高，部署简单。缺点是功能有限，内容更新不方便，交互性差</p>
+</blockquote>
+<p>​	因为从头撸代码太肝了, 时间有限, 就采用现成的框架来搭建. 这给博客网站就是采用Node.js + Hexo + matery主题 来搭建的.</p>
+<p>​	我的目标是在我的电脑上写好文章, 再同步到github上. 在电脑本地, 需要安装node.js(hexo依赖这个环境), Hexo(生成静态网页), git(将文章同步到github上), 还有markdown编辑器. </p>
+<hr>
+<h2 id="GitHub创建页面仓库"><a href="#GitHub创建页面仓库" class="headerlink" title="GitHub创建页面仓库"></a>GitHub创建页面仓库</h2><p>在GitHub新建一个名为<code>"你的账号名称".github.io</code>的仓库,其他的默认</p>
+<h2 id="部署本地环境"><a href="#部署本地环境" class="headerlink" title="部署本地环境"></a>部署本地环境</h2><h3 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h3><p>​	很简单, 只要前往<a target="_blank" rel="noopener" href="https://nodejs.org/">node.js官网</a>下载最新windows安装包安装即可. 安装好后可以在cmd使用<code>node -v</code>来查看版本号. </p>
+<h3 id="安装和部署git"><a href="#安装和部署git" class="headerlink" title="安装和部署git"></a>安装和部署git</h3><p>​	安装也不难, 去<a target="_blank" rel="noopener" href="https://git-scm.com/download/win">git官网</a>下载安装包, 一路next就可以了. 安装好之后可以在cmd用<code>git --version</code>来查看版本号. </p>
+<p>​	配置git倒需要一点步骤. 安装好之后可以在文件夹中右键看到”Git Bash Here”选项, 点击即可进入git控制台.</p>
+<h4 id="配置本地账户"><a href="#配置本地账户" class="headerlink" title="配置本地账户"></a>配置本地账户</h4><p>在控制台输入<code>git config --global user.name "用户名"</code>, 如何输入<code>git config --global "github邮箱"</code>即可.</p>
+<h4 id="创建ssh密钥"><a href="#创建ssh密钥" class="headerlink" title="创建ssh密钥"></a>创建ssh密钥</h4><p>然后输入<code>ssh-keygen -t rsa -C "github邮箱"</code>中途需要输入密钥文件保存路径, 也可以一路enter,如果这样的话密钥文件保存在</p>
+<blockquote>
+<p>C:\Users\用户名\.ssh</p>
+</blockquote>
+<p>当中, 其中”.ssh”是隐藏目录, 需要设置可见才可以找到. 用记事本打开,复制”id_rsa.pub”里面的公钥, 然后在github设置页中的”SSH and GPG keys”一栏中添加公钥.</p>
+<p><img src="/../images/image-20230527133804218.png" alt="image-20230527133804218"></p>
+<p>里面的”title”随便写, 用于自己辨认; “key type”默认; “key”粘贴刚刚复制的公钥. </p>
+<p>最后用<code>ssh -T git@github.com</code>测试是否能够通过 SSH 协议连接到GitHub.</p>
+<h3 id="添加镜像原"><a href="#添加镜像原" class="headerlink" title="添加镜像原"></a>添加镜像原</h3><p>命令行(也可以在git命令行里)输入<code>npm config set registry https://registry.npm.taobao.org</code>切换为阿里源.</p>
+<h3 id="安装和配置Hexo"><a href="#安装和配置Hexo" class="headerlink" title="安装和配置Hexo"></a>安装和配置Hexo</h3><p>创建一个文件夹存放博客文件. 然后进入文件夹用git bash打开. 然后输入<code>npm install -g hexo-cli</code>安装hexo. </p>
+<p>之后初始化hexo,输入<code>hexo init </code>. 然后就生成以下文件(夹)</p>
+<blockquote>
+<ul>
+<li><code>node_modules:</code> 依赖包</li>
+<li><code>public：</code>存放生成的页面</li>
+<li><code>scaffolds：</code>生成文章的一些模板</li>
+<li><code>source：</code>用来存放你的文章</li>
+<li><code>themes：</code>主题</li>
+<li><code>_config.yml:</code> 博客的配置文件</li>
+</ul>
+</blockquote>
+<p>其实现在已经可以用<code>hexo g</code>或者<code>hexo generate</code>生成网页,用<code>hexo s</code>打开本地服务器了 然后可以用<code>hexo clean</code>清除生成的静态网页文件.</p>
+<p>然后在其中的”_config.yml”最后按以下配置:</p>
+<pre class="line-numbers language-none"><code class="language-none">//告诉工具，将生成网页通过git方式上传到你对应的链接仓库中。
+deploy:
+  type: git
+  repository: https://github.com/yourname/yourname.github.io.git
+  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>最后用<code>hexo deploy</code>部署到github上面了. 就可以在”<a target="_blank" rel="noopener" href="http://yourname.github.io/%22%E8%AE%BF%E9%97%AE%E5%88%B0%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BA%86">http://yourname.github.io/"访问到你的网站了</a>.</p>
+<h2 id="个性化"><a href="#个性化" class="headerlink" title="个性化"></a>个性化</h2><p>事实上部署的过程已经完成,接下来的工作就只是修改自己的网页,让它更合自己的心意.</p>
+<p>具体就读读里面的<em><strong>README.md</strong></em>文件吧, 改改配置, 修改代码.</p>
 
                 
             </div>
@@ -465,7 +510,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://jinyongqin.github.io/2023/05/26/hello-world/">https://jinyongqin.github.io/2023/05/26/hello-world/</a>
+                    <a href="https://jinyongqin.github.io/2023/05/27/guan-yu-zai-github-shang-da-jian-ge-ren-bo-ke-zhe-jian-shi-qing/">https://jinyongqin.github.io/2023/05/27/guan-yu-zai-github-shang-da-jian-ge-ren-bo-ke-zhe-jian-shi-qing/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -502,7 +547,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E4%B8%8D%E5%8A%A1%E6%AD%A3%E4%B8%9A/">
+                                    <span class="chip bg-color">不务正业</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -544,9 +593,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2023/05/27/guan-yu-zai-github-shang-da-jian-ge-ren-bo-ke-zhe-jian-shi-qing/">
                     <div class="card-image">
@@ -563,9 +613,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-05-27
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-27
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -578,6 +628,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -596,12 +647,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2023/05/24/markdown/">
+                <a href="/2023/05/26/hello-world/">
                     <div class="card-image">
                         
-                        <img src="https://pic1.zhimg.com/v2-96727fec3160ad7114bd424377a90ee8_r.jpg" class="responsive-img" alt="markdown用法">
                         
-                        <span class="card-title">markdown用法</span>
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -612,31 +664,15 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-24
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-26
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                    学习
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            JinYong QIN （勇)
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%AD%A6%E4%B9%A0/">
-                        <span class="chip bg-color">学习</span>
-                    </a>
-                    
                 </div>
                 
             </div>
